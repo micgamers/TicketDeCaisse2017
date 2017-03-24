@@ -1,0 +1,6 @@
+C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.App.xaml.g.cs
+C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.Views.AboutPage.xaml.g.cs
+C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.Views.ItemDetailPage.xaml.g.cs
+C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.Views.ItemsPage.xaml.g.cs
+C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.Views.NewItemPage.xaml.g.cs
+C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.csprojResolveAssemblyReference.cache

@@ -1,0 +1,2 @@
+C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\TicketDeCaisse2017.UWP.csproj;x64
+C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.csproj;neutral
