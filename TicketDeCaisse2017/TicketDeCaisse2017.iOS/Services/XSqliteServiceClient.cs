@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using TicketDeCaisse2017.Services;
+using TicketDeCaisse2017.DependencyServices;
 using Xamarin.Forms;
 using TicketDeCaisse2017.iOS.Services;
 

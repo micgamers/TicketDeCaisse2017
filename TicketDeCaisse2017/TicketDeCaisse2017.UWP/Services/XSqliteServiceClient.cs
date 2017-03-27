@@ -2,13 +2,9 @@
 using SQLite.Net.Async;
 using SQLite.Net.Platform.WinRT;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TicketDeCaisse2017.Services;
 using Xamarin.Forms;
 using TicketDeCaisse2017.UWP.Services;
+using TicketDeCaisse2017.DependencyServices;
 using Windows.Storage;
 using System.IO;
 

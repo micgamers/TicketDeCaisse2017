@@ -24,10 +24,10 @@ namespace TicketDeCaisse2017.Services
             string finalPath = Path.Combine(path, nameDatabase);
             if (_Connection == null)
             {
-                _Connection = new SQLiteConnectionWithLock(new SQLi, new SQLiteConnectionString(finalPath, storeDateTimeAsTicks: true));
+                //_Connection = new SQLiteConnectionWithLock(new SQLi, new SQLiteConnectionString(finalPath, storeDateTimeAsTicks: true));
                 _Connection.BusyTimeout = new TimeSpan(0, 0, 1, 0);
 #if DEBUG
-                _Connection.TraceListener = new TraceListener();
+                //_Connection.TraceListener = new TraceListener();
 #endif
             }
             //_Connection.TraceListener = new DatabaseTraceListener();
@@ -37,10 +37,10 @@ namespace TicketDeCaisse2017.Services
         public void CreateAllTable()
         {
             var conn = TDCServiceLocator.Instance.Database.GetConnectionAsync();
-            using (conn.Lock())
-            {
-                conn.CreateTable<Models.Person>();
-            }
+            //using (conn.Lock())
+            //{
+            //    conn.CreateTable<Models.Person>();
+            //}
         }
 
     }
