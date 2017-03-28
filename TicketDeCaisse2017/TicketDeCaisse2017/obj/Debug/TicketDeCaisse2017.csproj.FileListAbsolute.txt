@@ -11,8 +11,11 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Gal
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\PCLStorage.Abstractions.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\PCLStorage.dll
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\SQLite.Net.Async.dll
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\SQLite.Net.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\SQLite-net.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\SQLitePCLRaw.core.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Xamarin.Forms.Core.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Xamarin.Forms.Platform.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Xamarin.Forms.Xaml.dll
@@ -24,12 +27,12 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Mic
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\PCLStorage.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\PCLStorage.Abstractions.xml
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\SQLite-net.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Xamarin.Forms.Core.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Xamarin.Forms.Core.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.csprojResolveAssemblyReference.cache
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.App.xaml.g.cs
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.Views.AboutPage.xaml.g.cs
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.Views.ItemDetailPage.xaml.g.cs
@@ -37,7 +40,3 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\Tic
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.Views.NewItemPage.xaml.g.cs
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.pdb
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.dll.mdb
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\TicketDeCaisse2017.dll.mdb
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.dll.mdb
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\TicketDeCaisse2017.dll.mdb

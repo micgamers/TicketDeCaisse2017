@@ -1,12 +1,16 @@
 C:\Users\occmo\Documents\Visual Studio 2017\Projects\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\TicketDeCaisse2017.Android.csprojResolveAssemblyReference.cache
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\TicketDeCaisse2017.Android.csprojResolveAssemblyReference.cache
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\TicketDeCaisse2017.Android.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\TicketDeCaisse2017.Android.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\com.companyname.TicketDeCaisse2017.apk
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\com.companyname.TicketDeCaisse2017-Signed.apk
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\FormsViewGroup.dll
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLite.Net.Async.dll
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLite.Net.dll
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLite.Net.Platform.XamarinAndroid.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLite-net.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLitePCLRaw.core.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\TicketDeCaisse2017.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\Xamarin.Android.Support.Design.dll
@@ -28,6 +32,8 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\D
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\TicketDeCaisse2017.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\FormsViewGroup.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLite-net.xml
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\SQLite-net.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\Xamarin.Forms.Core.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
@@ -44,7 +50,6 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\D
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\GalaSoft.MvvmLight.Extras.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\PCLStorage.xml
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\TicketDeCaisse2017.Android.csprojResolveAssemblyReference.cache
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\TicketDeCaisse2017.Android.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\TicketDeCaisse2017.Android.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\bin\com.companyname.TicketDeCaisse2017.apk
@@ -71,6 +76,7 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\D
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\System.Core.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\System.dll.mdb
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\System.IO.Compression.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\System.Net.Http.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
@@ -82,9 +88,11 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\D
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\Microsoft.Practices.ServiceLocation.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\SQLite-net.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\System.Core.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\System.dll.mdb
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\System.IO.Compression.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb

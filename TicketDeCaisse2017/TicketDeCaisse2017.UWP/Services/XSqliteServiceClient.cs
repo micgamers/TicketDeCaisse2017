@@ -1,6 +1,4 @@
-﻿using SQLite.Net;
-using SQLite.Net.Async;
-using SQLite.Net.Platform.WinRT;
+﻿using SQLite;
 using System;
 using Xamarin.Forms;
 using TicketDeCaisse2017.UWP.Services;
@@ -13,12 +11,12 @@ namespace TicketDeCaisse2017.UWP.Services
 {
     public class XSqliteServiceClient : IXSqliteService
     {
-        public SQLiteAsyncConnection GetAsyncConnection()
+        public string GetAsyncConnection()
         {
-            var dbPath = GetLocalFilePath("XamarinTemplate.db3");
-            var connectionFactory = new Func<SQLiteConnectionWithLock>(() => new SQLiteConnectionWithLock(new SQLitePlatformWinRT(), new SQLiteConnectionString(dbPath, storeDateTimeAsTicks: false)));
-            var asyncConnection = new SQLiteAsyncConnection(connectionFactory);
-            return asyncConnection;
+            //var dbPath = GetLocalFilePath("XamarinTemplate.db3");
+            //var connectionFactory = new Func<SQLiteConnectionWithLock>(() => new SQLiteConnectionWithLock(new SQLitePlatformWinRT(), new SQLiteConnectionString(dbPath, storeDateTimeAsTicks: false)));
+            //var asyncConnection = new SQLiteAsyncConnection(connectionFactory);
+            return GetLocalFilePath("XamarinTemplate.db3"); 
         }
 
         public string GetLocalFilePath(string filename)

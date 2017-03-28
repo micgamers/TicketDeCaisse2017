@@ -1,4 +1,4 @@
-﻿using SQLite.Net.Async;
+﻿using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace TicketDeCaisse2017.DependencyServices
 {
     public interface IXSqliteService
     {
-        SQLiteAsyncConnection GetAsyncConnection();
+        string GetAsyncConnection();
     }
 }

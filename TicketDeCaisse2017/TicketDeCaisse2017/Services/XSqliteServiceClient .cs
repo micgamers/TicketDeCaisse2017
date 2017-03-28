@@ -1,4 +1,4 @@
-﻿using SQLite.Net.Async;
+﻿using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -26,7 +26,16 @@ namespace TicketDeCaisse2017.Services
             {
                 if (_dbConnection == null)
                 {
-                    LazyInitializer.EnsureInitialized(ref _dbConnection, DependencyService.Get<IXSqliteService>().GetAsyncConnection);
+                    // LazyInitializer.EnsureInitialized(ref _dbConnection, DependencyService.Get<IXSqliteService>().GetAsyncConnection);
+
+                    _dbConnection = new SQLiteAsyncConnection(DependencyService.Get<IXSqliteService>().GetAsyncConnection());                    
+
+                    //var connectionWithLock = new SQLiteConnectionWithLock(
+                    //platform,
+                    //new SQLiteConnectionString(path, true));
+
+                    //var connection = new SQLiteAsyncConnection(() => connectionWithLock);
+
                 }
 
                 return _dbConnection;
@@ -50,6 +59,7 @@ namespace TicketDeCaisse2017.Services
         public async void CreateDbIfNotExist()
         {
             await DbConnection.CreateTableAsync<Person>();
+            
             Debug.WriteLine("Create db success!");
         }
     }
