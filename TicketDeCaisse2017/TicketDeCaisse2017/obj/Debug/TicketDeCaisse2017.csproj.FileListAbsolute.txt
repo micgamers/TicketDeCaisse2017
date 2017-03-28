@@ -40,3 +40,4 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\Tic
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.Views.NewItemPage.xaml.g.cs
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.pdb
+C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\obj\Debug\TicketDeCaisse2017.csprojResolveAssemblyReference.cache

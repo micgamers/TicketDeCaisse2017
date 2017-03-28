@@ -62,5 +62,40 @@ namespace TicketDeCaisse2017.Services
             
             Debug.WriteLine("Create db success!");
         }
+
+        public async void AddListPerson()
+        {
+            Person person1 = new Person()
+            {
+                FirstName = "Watrelot",
+                LastName = "Mickael"
+            };
+
+            Person person2 = new Person()
+            {
+                FirstName = "Watrelot",
+                LastName = "Robin"
+            };
+
+            Person person3 = new Person()
+            {
+                FirstName = "Dorchies",
+                LastName = "Caroline"
+            };
+
+            List<Person> listPerson = new List<Person>();
+            listPerson.Add(person1);
+            listPerson.Add(person2);
+            listPerson.Add(person3);
+
+            await DbConnection.InsertAllAsync(listPerson);
+        }
+
+        public async void GetListPerson()
+        {
+            var result = await DbConnection.ExecuteScalarAsync<int>("select count(*) from Person");
+
+            Debug.WriteLine(string.Format("Found '{0}' person items.", result));
+        }
     }
 }
