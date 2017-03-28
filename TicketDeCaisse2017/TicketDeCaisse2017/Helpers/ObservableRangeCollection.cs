@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.Threading.Tasks;
+using TicketDeCaisse2017.Models;
 
 namespace TicketDeCaisse2017.Helpers
 {
@@ -99,5 +101,6 @@ namespace TicketDeCaisse2017.Helpers
             Items.Clear();
             AddRange(collection, NotifyCollectionChangedAction.Reset);
         }
+
     }
 }

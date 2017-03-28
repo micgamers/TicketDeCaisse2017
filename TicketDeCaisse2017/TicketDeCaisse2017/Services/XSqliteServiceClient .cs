@@ -59,7 +59,7 @@ namespace TicketDeCaisse2017.Services
         public async void CreateDbIfNotExist()
         {
             await DbConnection.CreateTableAsync<Person>();
-            
+            await DbConnection.CreateTableAsync<Warranty>();
             Debug.WriteLine("Create db success!");
         }
 
@@ -91,11 +91,45 @@ namespace TicketDeCaisse2017.Services
             await DbConnection.InsertAllAsync(listPerson);
         }
 
+        public async void AddListWarranty()
+        {
+            Warranty warranty1 = new Warranty()
+            {
+                Name = "Watrelot",
+                StoreName = "Boulanger"
+            };
+
+            Warranty warranty2 = new Warranty()
+            {
+                Name = "Watrelot",
+                StoreName = "Auchan"
+            };
+
+            Warranty warranty3 = new Warranty()
+            {
+                Name = "Watrelot",
+                StoreName = "Darty"
+            };
+
+            List<Warranty> listWarranty = new List<Warranty>();
+            listWarranty.Add(warranty1);
+            listWarranty.Add(warranty2);
+            listWarranty.Add(warranty3);
+
+            await DbConnection.InsertAllAsync(listWarranty);
+        }
+
         public async void GetListPerson()
         {
             var result = await DbConnection.ExecuteScalarAsync<int>("select count(*) from Person");
 
             Debug.WriteLine(string.Format("Found '{0}' person items.", result));
+        }
+
+        public async Task<List<Warranty>> GetListWarranty()
+        {
+            List<Warranty> result = await DbConnection.ExecuteScalarAsync<List<Warranty>>("select * from Warranty");
+            return result;            
         }
     }
 }
