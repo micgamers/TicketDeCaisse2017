@@ -1,1 +1,9 @@
 *.suo
+*.suo
+*.exe
+*.dll
+*.appxrecipe
+TicketDeCaisse2017/TicketDeCaisse2017.UWP/bin/x86/Debug/TicketDeCaisse2017.pdb
+*.pdb
+TicketDeCaisse2017/TicketDeCaisse2017.UWP/obj/x86/Debug/ResourceHandlingTask.state
+*.cache

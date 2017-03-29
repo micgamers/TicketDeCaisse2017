@@ -8,7 +8,7 @@ namespace TicketDeCaisse2017.Services
 {
     public interface IXSqliteServiceClient
     {
-        void CreateDbIfNotExist();
+        Task CreateDbIfNotExist();
         void AddListPerson();
         void GetListPerson();
     }

@@ -9,13 +9,13 @@ namespace TicketDeCaisse2017.Views
 {
     public partial class ItemsPage : ContentPage
     {
-        ItemsViewModel viewModel;
+        WarrantyViewModel viewModel;
 
         public ItemsPage()
         {
             InitializeComponent();
 
-            BindingContext = viewModel = new ItemsViewModel();
+            BindingContext = viewModel = new WarrantyViewModel();
         }
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)

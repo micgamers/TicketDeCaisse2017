@@ -14,10 +14,7 @@ namespace TicketDeCaisse2017.Services
 {
     public class XSqliteServiceClient : IXSqliteServiceClient
     {
-        //private static readonly Lazy<XSqliteServiceClient> Lazy =
-        //new Lazy<XSqliteServiceClient>(() => new XSqliteServiceClient());
-
-        //public static IXSqliteServiceClient Instance => Lazy.Value;
+        private static string CREATE_TABLE_WARRANTY = "CREATE TABLE Warranty (Name string, StoreName string, PRIMARY KEY(Name, StoreName))";
 
         private SQLiteAsyncConnection _dbConnection;
         public SQLiteAsyncConnection DbConnection
@@ -26,16 +23,7 @@ namespace TicketDeCaisse2017.Services
             {
                 if (_dbConnection == null)
                 {
-                    // LazyInitializer.EnsureInitialized(ref _dbConnection, DependencyService.Get<IXSqliteService>().GetAsyncConnection);
-
                     _dbConnection = new SQLiteAsyncConnection(DependencyService.Get<IXSqliteService>().GetAsyncConnection());                    
-
-                    //var connectionWithLock = new SQLiteConnectionWithLock(
-                    //platform,
-                    //new SQLiteConnectionString(path, true));
-
-                    //var connection = new SQLiteAsyncConnection(() => connectionWithLock);
-
                 }
 
                 return _dbConnection;
@@ -56,10 +44,12 @@ namespace TicketDeCaisse2017.Services
         //    }).ConfigureAwait(false);
         //}
 
-        public async void CreateDbIfNotExist()
+        public async Task CreateDbIfNotExist()
         {
-            await DbConnection.CreateTableAsync<Person>();
-            await DbConnection.CreateTableAsync<Warranty>();
+            //await DbConnection.CreateTableAsync<Person>();
+            //await DbConnection.CreateTableAsync<Warranty>();
+            await DbConnection.ExecuteAsync(CREATE_TABLE_WARRANTY);
+
             Debug.WriteLine("Create db success!");
         }
 
@@ -71,11 +61,15 @@ namespace TicketDeCaisse2017.Services
                 LastName = "Mickael"
             };
 
+            await DbConnection.InsertOrReplaceAsync(person1);
+
             Person person2 = new Person()
             {
                 FirstName = "Watrelot",
                 LastName = "Robin"
             };
+
+            await DbConnection.InsertOrReplaceAsync(person2);
 
             Person person3 = new Person()
             {
@@ -83,15 +77,11 @@ namespace TicketDeCaisse2017.Services
                 LastName = "Caroline"
             };
 
-            List<Person> listPerson = new List<Person>();
-            listPerson.Add(person1);
-            listPerson.Add(person2);
-            listPerson.Add(person3);
-
-            await DbConnection.InsertAllAsync(listPerson);
+            await DbConnection.InsertOrReplaceAsync(person3);
+            
         }
 
-        public async void AddListWarranty()
+        public async Task AddListWarranty()
         {
             Warranty warranty1 = new Warranty()
             {
@@ -99,11 +89,17 @@ namespace TicketDeCaisse2017.Services
                 StoreName = "Boulanger"
             };
 
+
+            await DbConnection.InsertOrReplaceAsync(warranty1);
+
+
             Warranty warranty2 = new Warranty()
             {
                 Name = "Watrelot",
                 StoreName = "Auchan"
             };
+
+            await DbConnection.InsertOrReplaceAsync(warranty2);
 
             Warranty warranty3 = new Warranty()
             {
@@ -111,12 +107,7 @@ namespace TicketDeCaisse2017.Services
                 StoreName = "Darty"
             };
 
-            List<Warranty> listWarranty = new List<Warranty>();
-            listWarranty.Add(warranty1);
-            listWarranty.Add(warranty2);
-            listWarranty.Add(warranty3);
-
-            await DbConnection.InsertAllAsync(listWarranty);
+            await DbConnection.InsertOrReplaceAsync(warranty3);
         }
 
         public async void GetListPerson()

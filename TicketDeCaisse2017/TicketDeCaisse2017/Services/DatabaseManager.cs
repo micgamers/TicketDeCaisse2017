@@ -14,6 +14,8 @@ namespace TicketDeCaisse2017.Services
     {
         private SQLiteConnectionWithLock _Connection = null;
 
+        
+
         private async Task<SQLiteConnectionWithLock> GetConnectionAsync()
         {
             var rootFolder = FileSystem.Current.LocalStorage;
@@ -41,6 +43,7 @@ namespace TicketDeCaisse2017.Services
             //{
             //    conn.CreateTable<Models.Person>();
             //}
+
         }
 
     }
