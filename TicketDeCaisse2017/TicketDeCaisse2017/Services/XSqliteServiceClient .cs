@@ -14,8 +14,8 @@ namespace TicketDeCaisse2017.Services
 {
     public class XSqliteServiceClient : IXSqliteServiceClient
     {
-        private static string CREATE_TABLE_WARRANTY = "CREATE TABLE Warranty (Name string, StoreName string, PRIMARY KEY(Name, StoreName))";
-
+        private static string CREATE_TABLE_WARRANTY = "CREATE TABLE IF NOT EXISTS Warranty (Name string, StoreName string, PRIMARY KEY(Name, StoreName))";
+        private static string SELECT_ELEMENT_WARRANTY = "select * from Warranty";
         private SQLiteAsyncConnection _dbConnection;
         public SQLiteAsyncConnection DbConnection
         {
@@ -119,8 +119,18 @@ namespace TicketDeCaisse2017.Services
 
         public async Task<List<Warranty>> GetListWarranty()
         {
-            List<Warranty> result = await DbConnection.ExecuteScalarAsync<List<Warranty>>("select * from Warranty");
-            return result;            
+            try
+            {
+                List<Warranty> result = await DbConnection.Table<Warranty>().ToListAsync();
+
+                //await DbConnection.ExecuteScalarAsync<List<Warranty>>("select * from Warranty");
+                return result;
+            }
+            catch(Exception e)
+            {
+                Debug.WriteLine(string.Format("Exception : '{0}'", e));
+            }
+            return null;
         }
     }
 }
