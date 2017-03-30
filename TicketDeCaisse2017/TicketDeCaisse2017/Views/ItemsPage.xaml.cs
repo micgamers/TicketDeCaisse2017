@@ -20,7 +20,7 @@ namespace TicketDeCaisse2017.Views
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            var item = args.SelectedItem as Item;
+            var item = args.SelectedItem as Warranty;
             if (item == null)
                 return;
 

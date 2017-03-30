@@ -4,10 +4,10 @@ namespace TicketDeCaisse2017.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {
-        public Item Item { get; set; }
-        public ItemDetailViewModel(Item item = null)
+        public Warranty Item { get; set; }
+        public ItemDetailViewModel(Warranty item = null)
         {
-            Title = item.Text;
+            Title = item.Name;
             Item = item;
         }
 

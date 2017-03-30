@@ -13,6 +13,8 @@ namespace TicketDeCaisse2017.Models
 
         public string StoreName { get; set; }
 
+        public string Url { get; set; }
+
         public override string ToString()
         {
             return string.Format("[Warranty: ID={0}, Name={1}, StoreName={2}]", Name, StoreName);

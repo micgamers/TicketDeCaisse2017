@@ -14,7 +14,7 @@ namespace TicketDeCaisse2017.Services
 {
     public class XSqliteServiceClient : IXSqliteServiceClient
     {
-        private static string CREATE_TABLE_WARRANTY = "CREATE TABLE IF NOT EXISTS Warranty (Name string, StoreName string, PRIMARY KEY(Name, StoreName))";
+        private static string CREATE_TABLE_WARRANTY = "CREATE TABLE IF NOT EXISTS Warranty (Name string, StoreName string, Url string, PRIMARY KEY(Name, StoreName))";
         private static string SELECT_ELEMENT_WARRANTY = "select * from Warranty";
         private SQLiteAsyncConnection _dbConnection;
         public SQLiteAsyncConnection DbConnection
@@ -86,7 +86,8 @@ namespace TicketDeCaisse2017.Services
             Warranty warranty1 = new Warranty()
             {
                 Name = "Watrelot",
-                StoreName = "Boulanger"
+                StoreName = "Boulanger",
+                Url = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/ReceiptSwiss.jpg/200px-ReceiptSwiss.jpg"
             };
 
 
@@ -96,7 +97,8 @@ namespace TicketDeCaisse2017.Services
             Warranty warranty2 = new Warranty()
             {
                 Name = "Watrelot",
-                StoreName = "Auchan"
+                StoreName = "Auchan",
+                Url = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/ReceiptSwiss.jpg/200px-ReceiptSwiss.jpg"
             };
 
             await DbConnection.InsertOrReplaceAsync(warranty2);
@@ -104,7 +106,8 @@ namespace TicketDeCaisse2017.Services
             Warranty warranty3 = new Warranty()
             {
                 Name = "Watrelot",
-                StoreName = "Darty"
+                StoreName = "Darty",
+                Url = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/ReceiptSwiss.jpg/200px-ReceiptSwiss.jpg"
             };
 
             await DbConnection.InsertOrReplaceAsync(warranty3);
@@ -112,7 +115,7 @@ namespace TicketDeCaisse2017.Services
 
         public async void GetListPerson()
         {
-            var result = await DbConnection.ExecuteScalarAsync<int>("select count(*) from Person");
+            var result = await DbConnection.Table<Person>().CountAsync();
 
             Debug.WriteLine(string.Format("Found '{0}' person items.", result));
         }
@@ -122,8 +125,6 @@ namespace TicketDeCaisse2017.Services
             try
             {
                 List<Warranty> result = await DbConnection.Table<Warranty>().ToListAsync();
-
-                //await DbConnection.ExecuteScalarAsync<List<Warranty>>("select * from Warranty");
                 return result;
             }
             catch(Exception e)

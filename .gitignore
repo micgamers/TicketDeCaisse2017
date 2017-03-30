@@ -7,3 +7,11 @@ TicketDeCaisse2017/TicketDeCaisse2017.UWP/bin/x86/Debug/TicketDeCaisse2017.pdb
 *.pdb
 TicketDeCaisse2017/TicketDeCaisse2017.UWP/obj/x86/Debug/ResourceHandlingTask.state
 *.cache
+*.apk
+*.mdb
+*.mdb
+TicketDeCaisse2017/TicketDeCaisse2017.UWP/obj/x86/Debug/intermediatexaml/TicketDeCaisse2017.UWP.exe
+TicketDeCaisse2017/TicketDeCaisse2017.Android/bin/Debug/com.companyname.TicketDeCaisse2017-Signed.apk
+*.apk
+TicketDeCaisse2017/TicketDeCaisse2017.Android/bin/Debug/TicketDeCaisse2017.Android.dll.mdb
+*.pdb
