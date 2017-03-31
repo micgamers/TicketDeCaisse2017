@@ -141,14 +141,12 @@ C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\D
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\GalaSoft.MvvmLight.Extras.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\PCLStorage.dll
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\TicketDeCaisse2017.pdb
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\PCLStorage.Abstractions.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\GalaSoft.MvvmLight.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\GalaSoft.MvvmLight.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\GalaSoft.MvvmLight.Extras.pdb
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\GalaSoft.MvvmLight.Extras.xml
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\PCLStorage.xml
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\obj\x86\Debug\TicketDeCaisse2017.UWP.csprojResolveAssemblyReference.cache
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\obj\x86\Debug\App.g.i.cs
 C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\obj\x86\Debug\App.g.cs

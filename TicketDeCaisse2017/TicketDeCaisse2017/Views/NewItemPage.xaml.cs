@@ -8,16 +8,16 @@ namespace TicketDeCaisse2017.Views
 {
     public partial class NewItemPage : ContentPage
     {
-        public Item Item { get; set; }
+        public Warranty Item { get; set; }
 
         public NewItemPage()
         {
             InitializeComponent();
 
-            Item = new Item
+            Item = new Warranty
             {
-                Text = "Item name",
-                Description = "This is a nice description"
+                Name = "Nom",
+                StoreName = "Nom du magasin"
             };
 
             BindingContext = this;

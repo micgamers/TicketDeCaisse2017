@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>F0973FDAD3EFD8B25D1554BA82A387B0ED1B48FDCBE77A3CA0AD838B0C64BD59</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>2470317527BAEC968D0AEC0968C13E4941EA14CAEF62E257D24ADCDCE19C6CE9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a64a73f6-ce11-4d0a-907b-599f806dcd85_1.0.0.0_x86__6bnptgcphsvt8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a64a73f6-ce11-4d0a-907b-599f806dcd85_6bnptgcphsvt8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a64a73f6-ce11-4d0a-907b-599f806dcd85</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T09:19:18.571</Modified>
+      <Modified>2017-03-31T09:13:04.443</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\TicketDeCaisse2017.UWP.exe">
       <PackagePath>entrypoint\TicketDeCaisse2017.UWP.exe</PackagePath>
-      <Modified>2017-03-30T09:19:17.989</Modified>
+      <Modified>2017-03-31T09:13:03.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -91,6 +91,14 @@
     <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\Microsoft.VisualBasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
       <Modified>2016-06-11T21:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\PCLStorage\1.0.2\lib\portable-win8+wpa81\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+      <Modified>2015-01-18T09:36:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\PCLStorage\1.0.2\lib\portable-win8+wpa81\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+      <Modified>2015-01-18T09:36:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\runtime.any.System.Collections\4.0.11\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
@@ -542,11 +550,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\TicketDeCaisse2017.dll">
       <PackagePath>TicketDeCaisse2017.dll</PackagePath>
-      <Modified>2017-03-30T09:19:15.802</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\PCLStorage.Abstractions.dll">
-      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
-      <Modified>2017-03-27T08:37:21.619</Modified>
+      <Modified>2017-03-31T09:13:00.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
@@ -559,10 +563,6 @@
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\GalaSoft.MvvmLight.Extras.dll">
       <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
       <Modified>2017-03-27T08:37:20.381</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\PCLStorage.dll">
-      <PackagePath>PCLStorage.dll</PackagePath>
-      <Modified>2017-03-27T08:37:21.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -633,11 +633,11 @@
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-29T13:16:41.668</Modified>
+      <Modified>2017-03-31T09:13:04.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\Core\TicketDeCaisse2017.UWP.exe">
       <PackagePath>TicketDeCaisse2017.UWP.exe</PackagePath>
-      <Modified>2017-03-30T09:19:18.565</Modified>
+      <Modified>2017-03-31T09:13:04.437</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

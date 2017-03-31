@@ -1,4 +1,6 @@
-﻿using TicketDeCaisse2017.Models;
+﻿using System.Threading.Tasks;
+using TicketDeCaisse2017.Models;
+using Xamarin.Forms;
 
 namespace TicketDeCaisse2017.ViewModels
 {
@@ -16,6 +18,23 @@ namespace TicketDeCaisse2017.ViewModels
         {
             get { return quantity; }
             set { SetProperty(ref quantity, value); }
+        }
+
+        public ImageSource image { get; set; }
+
+
+        public async Task InitAsync()
+        {
+            if (Item.Url.StartsWith("http"))
+            {
+                image = ImageSource.FromUri(new System.Uri(Item.Url));
+            }
+            else
+            {
+                var file = await PCLStorage.FileSystem.Current.GetFileFromPathAsync(Item.Url);
+                var stream = await file.OpenAsync(PCLStorage.FileAccess.Read);
+                image = ImageSource.FromStream(() => stream);
+            }
         }
     }
 }

@@ -6,8 +6,8 @@
 	<StackLayout Spacing="20" Padding="15">
 		<Label Text="{Binding Item.Name}" FontSize="Medium"/>
         <Label Text="{Binding Item.StoreName}" FontSize="Small"/>
-        <Image Source="{Binding Item.Url}"/>
-
+        
+        <Image Source="{Binding image}"/>
 
     </StackLayout>
 </ContentPage>

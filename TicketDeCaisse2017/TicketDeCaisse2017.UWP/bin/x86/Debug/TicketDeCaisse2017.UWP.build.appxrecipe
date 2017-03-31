@@ -67,6 +67,12 @@
     <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\Microsoft.VisualBasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\PCLStorage\1.0.2\lib\portable-win8+wpa81\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\PCLStorage\1.0.2\lib\portable-win8+wpa81\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\occmo\.nuget\packages\runtime.any.System.Collections\4.0.11\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
     </AppxPackagedFile>
@@ -406,9 +412,6 @@
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\TicketDeCaisse2017.dll">
       <PackagePath>TicketDeCaisse2017.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\PCLStorage.Abstractions.dll">
-      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
     </AppxPackagedFile>
@@ -417,9 +420,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\GalaSoft.MvvmLight.Extras.dll">
       <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\PCLStorage.dll">
-      <PackagePath>PCLStorage.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

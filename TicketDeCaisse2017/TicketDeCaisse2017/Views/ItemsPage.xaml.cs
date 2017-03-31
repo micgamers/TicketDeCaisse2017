@@ -24,7 +24,9 @@ namespace TicketDeCaisse2017.Views
             if (item == null)
                 return;
 
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+            var itemVM = new ItemDetailViewModel(item);
+            await itemVM.InitAsync();
+            await Navigation.PushAsync(new ItemDetailPage(itemVM));
 
             // Manually deselect item
             ItemsListView.SelectedItem = null;

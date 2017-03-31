@@ -87,9 +87,8 @@ namespace TicketDeCaisse2017.Services
             {
                 Name = "Watrelot",
                 StoreName = "Boulanger",
-                Url = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/ReceiptSwiss.jpg/200px-ReceiptSwiss.jpg"
+                Url = @"C:\Users\occmo\Pictures\contenu\25_chat1280.jpg"
             };
-
 
             await DbConnection.InsertOrReplaceAsync(warranty1);
 
@@ -111,6 +110,11 @@ namespace TicketDeCaisse2017.Services
             };
 
             await DbConnection.InsertOrReplaceAsync(warranty3);
+        }
+
+        public async Task AddWarranty(Warranty warranty)
+        {
+            await DbConnection.InsertOrReplaceAsync(warranty);
         }
 
         public async void GetListPerson()
