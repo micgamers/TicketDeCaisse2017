@@ -6,11 +6,11 @@ namespace TicketDeCaisse2017.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {
-        public Warranty Item { get; set; }
-        public ItemDetailViewModel(Warranty item = null)
+        public Warranty Warranty { get; set; }
+        public ItemDetailViewModel(Warranty warranty = null)
         {
-            Title = item.Name;
-            Item = item;
+            Title = warranty.Name;
+            Warranty = warranty;
         }
 
         int quantity = 1;
@@ -25,13 +25,13 @@ namespace TicketDeCaisse2017.ViewModels
 
         public async Task InitAsync()
         {
-            if (Item.Url.StartsWith("http"))
+            if (Warranty.Url.StartsWith("http"))
             {
-                image = ImageSource.FromUri(new System.Uri(Item.Url));
+                image = ImageSource.FromUri(new System.Uri(Warranty.Url));
             }
             else
             {
-                var file = await PCLStorage.FileSystem.Current.GetFileFromPathAsync(Item.Url);
+                var file = await PCLStorage.FileSystem.Current.GetFileFromPathAsync(Warranty.Url);
                 var stream = await file.OpenAsync(PCLStorage.FileAccess.Read);
                 image = ImageSource.FromStream(() => stream);
             }

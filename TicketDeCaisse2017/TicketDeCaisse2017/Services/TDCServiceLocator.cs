@@ -33,10 +33,7 @@ namespace TicketDeCaisse2017.Services
             if (!ServiceLocator.IsLocationProviderSet)
             {
                 ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
-
-
                 SimpleIoc.Default.Register<DatabaseManager>();
-                SimpleIoc.Default.Register<XSqliteServiceClient>();
             }
         }
 
@@ -45,14 +42,6 @@ namespace TicketDeCaisse2017.Services
             get
             {
                 return ServiceLocator.Current.GetInstance<DatabaseManager>();
-            }
-        }
-
-        public XSqliteServiceClient XSqliteService
-        {
-            get
-            {
-                return ServiceLocator.Current.GetInstance<XSqliteServiceClient>();
             }
         }
     }

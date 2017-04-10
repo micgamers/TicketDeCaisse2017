@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace TicketDeCaisse2017.Services
 {
-    public interface IXSqliteServiceClient
+    public interface IDatabaseManager
     {
         Task CreateDbIfNotExist();
-        void AddListPerson();
-        void GetListPerson();
     }
 }

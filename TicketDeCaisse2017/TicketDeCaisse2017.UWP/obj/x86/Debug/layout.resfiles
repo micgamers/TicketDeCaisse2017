@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+e_sqlite3.dll
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -10,4 +11,3 @@ TicketDeCaisse2017.UWP.xr.xml
 profile_generic.png
 Properties\Default.rd.xml
 slideout.png
-e_sqlite3.dll

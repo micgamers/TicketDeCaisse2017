@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TicketDeCaisse2017.Views.NewItemPage"
-		Title="New Item">
+		Title="New Warranty">
 	<ContentPage.ToolbarItems>
 		<ToolbarItem Text="Save" Clicked="Save_Clicked" />
 	</ContentPage.ToolbarItems>
 	<ContentPage.Content>
 		<StackLayout Spacing="20" Padding="15">
 			<Label Text="Text" FontSize="Medium" />
-			<Entry Text="{Binding Item.Name}" FontSize="Small" />
+            <Entry Text="{Binding Warranty.Name}" FontSize="Small" />
 			<Label Text="Description" FontSize="Medium" />
-			<Editor Text="{Binding Item.StoreName}" FontSize="Small" Margin="0" />
+            <Editor Text="{Binding Warranty.StoreName}" FontSize="Small" Margin="0" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

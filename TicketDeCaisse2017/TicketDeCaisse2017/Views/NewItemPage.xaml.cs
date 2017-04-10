@@ -8,13 +8,13 @@ namespace TicketDeCaisse2017.Views
 {
     public partial class NewItemPage : ContentPage
     {
-        public Warranty Item { get; set; }
+        public Warranty Warranty { get; set; }
 
         public NewItemPage()
         {
             InitializeComponent();
 
-            Item = new Warranty
+            Warranty = new Warranty
             {
                 Name = "Nom",
                 StoreName = "Nom du magasin"
@@ -25,7 +25,7 @@ namespace TicketDeCaisse2017.Views
 
         async void Save_Clicked(object sender, EventArgs e)
         {
-            MessagingCenter.Send(this, "AddItem", Item);
+            MessagingCenter.Send(this, "AddItem", Warranty);
             await Navigation.PopToRootAsync();
         }
     }

@@ -25,7 +25,6 @@ namespace TicketDeCaisse2017.ViewModels
             {
                 var _item = item as Item;
                 Items.Add(_item);
-                await DataStore.AddItemAsync(_item);
             });
         }
 
@@ -38,9 +37,6 @@ namespace TicketDeCaisse2017.ViewModels
 
             try
             {
-                Items.Clear();
-                var items = await DataStore.GetItemsAsync(true);
-                Items.ReplaceRange(items);
             }
             catch (Exception ex)
             {

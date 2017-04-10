@@ -20,11 +20,11 @@ namespace TicketDeCaisse2017.Views
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            var item = args.SelectedItem as Warranty;
-            if (item == null)
+            var warranty = args.SelectedItem as Warranty;
+            if (warranty == null)
                 return;
 
-            var itemVM = new ItemDetailViewModel(item);
+            var itemVM = new ItemDetailViewModel(warranty);
             await itemVM.InitAsync();
             await Navigation.PushAsync(new ItemDetailPage(itemVM));
 

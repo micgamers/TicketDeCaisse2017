@@ -1,2 +1,2 @@
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\TicketDeCaisse2017.UWP.csproj;x86
-C:\projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.csproj;neutral
+C:\Users\micka\Projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\TicketDeCaisse2017.UWP.csproj;x86
+C:\Users\micka\Projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.csproj;neutral

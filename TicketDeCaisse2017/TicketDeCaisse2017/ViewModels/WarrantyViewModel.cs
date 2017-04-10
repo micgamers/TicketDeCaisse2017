@@ -26,7 +26,7 @@ namespace TicketDeCaisse2017.ViewModels
             MessagingCenter.Subscribe<NewItemPage, Warranty>(this, "AddItem", async (obj, item) =>
             {
                 var _item = item as Warranty;
-                await TDCServiceLocator.Instance.XSqliteService.AddWarranty(_item);
+                await TDCServiceLocator.Instance.Database.AddWarranty(_item);
                 Items.Add(_item);
                 Debug.WriteLine("add warranty in db success!");
             });
@@ -42,7 +42,7 @@ namespace TicketDeCaisse2017.ViewModels
             try
             {
                 Items.Clear();
-                var items = await TDCServiceLocator.Instance.XSqliteService.GetListWarranty();
+                var items = await TDCServiceLocator.Instance.Database.GetListWarranty();
                 //await DataStore.GetItemsAsync(true);
                 Items.ReplaceRange(items);
                 

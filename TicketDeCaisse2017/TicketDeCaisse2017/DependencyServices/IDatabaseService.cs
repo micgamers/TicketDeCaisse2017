@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TicketDeCaisse2017.DependencyServices
 {
-    public interface IXSqliteService
+    public interface IDatabaseService
     {
         string GetAsyncConnection();
     }

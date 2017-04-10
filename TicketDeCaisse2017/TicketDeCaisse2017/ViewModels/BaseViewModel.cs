@@ -8,10 +8,6 @@ namespace TicketDeCaisse2017.ViewModels
 {
     public class BaseViewModel : ObservableObject
     {
-        /// <summary>
-        /// Get the azure service instance
-        /// </summary>
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 
         bool isBusy = false;
         public bool IsBusy

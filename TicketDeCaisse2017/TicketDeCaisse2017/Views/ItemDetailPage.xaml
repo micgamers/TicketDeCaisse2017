@@ -3,11 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TicketDeCaisse2017.Views.ItemDetailPage"
              Title="{Binding Title}">
-	<StackLayout Spacing="20" Padding="15">
-		<Label Text="{Binding Item.Name}" FontSize="Medium"/>
-        <Label Text="{Binding Item.StoreName}" FontSize="Small"/>
+    <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+	    <StackLayout Spacing="20" Padding="15">
+		    <Label Text="{Binding Warranty.Name}" FontSize="Medium"/>
+            <Label Text="{Binding Warranty.StoreName}" FontSize="Small"/>
         
-        <Image Source="{Binding image}"/>
+            <Image Source="{Binding image}"/>
 
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

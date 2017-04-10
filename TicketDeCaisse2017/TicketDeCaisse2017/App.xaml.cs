@@ -15,20 +15,14 @@ namespace TicketDeCaisse2017
 
             SetMainPage();
 
-            TDCServiceLocator.Instance.Initialize("CloudOrange");
-            TDCServiceLocator.Instance.Database.CreateAllTable();
-            
-            //TDCServiceLocator.Instance.XSqliteService.AddListPerson();
-            //TDCServiceLocator.Instance.XSqliteService.GetListPerson();
-            
-            
+            TDCServiceLocator.Instance.Initialize("TicketDeCaisse");                    
         }
 
         protected override async void OnStart()
         {
             base.OnStart();
-            await TDCServiceLocator.Instance.XSqliteService.CreateDbIfNotExist();
-            await TDCServiceLocator.Instance.XSqliteService.AddListWarranty();
+            await TDCServiceLocator.Instance.Database.CreateDbIfNotExist();
+            await TDCServiceLocator.Instance.Database.AddListWarranty();
         }
 
         public static void SetMainPage()

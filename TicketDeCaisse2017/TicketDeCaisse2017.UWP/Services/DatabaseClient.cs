@@ -6,17 +6,17 @@ using TicketDeCaisse2017.DependencyServices;
 using Windows.Storage;
 using System.IO;
 
-[assembly: Dependency(typeof(XSqliteServiceClient))]
+[assembly: Dependency(typeof(DatabaseClient))]
 namespace TicketDeCaisse2017.UWP.Services
 {
-    public class XSqliteServiceClient : IXSqliteService
+    public class DatabaseClient : IDatabaseService
     {
         public string GetAsyncConnection()
         {
             //var dbPath = GetLocalFilePath("XamarinTemplate.db3");
             //var connectionFactory = new Func<SQLiteConnectionWithLock>(() => new SQLiteConnectionWithLock(new SQLitePlatformWinRT(), new SQLiteConnectionString(dbPath, storeDateTimeAsTicks: false)));
             //var asyncConnection = new SQLiteAsyncConnection(connectionFactory);
-            return GetLocalFilePath("XamarinTemplate.db3"); 
+            return GetLocalFilePath("TicketDeCaisse2017DB.sqlite"); 
         }
 
         public string GetLocalFilePath(string filename)

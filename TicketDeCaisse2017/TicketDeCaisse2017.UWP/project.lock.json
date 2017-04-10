@@ -23553,7 +23553,7 @@
       ]
     },
     "Xamarin.Forms/2.3.3.193": {
-      "sha512": "CnJ+/mWMhB7GvFrzddza0DxnC5NcD4bk/pG28ws1aFQ0GVzjgh59jv3RVvxp7VhDb2ubOkrxuQQxwTpM8PZMLg==",
+      "sha512": "RnZGA4K1MoN5qDKBvBd0BTkWcXQ42p4qCP6VYBoGD/PIlPMyLTUcRnfcPg+jPOjSy7mlNoCMZc+6KL38/wVE5g==",
       "type": "package",
       "path": "xamarin.forms/2.3.3.193",
       "files": [
@@ -23731,20 +23731,20 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\occmo\\.nuget\\packages\\": {}
+    "C:\\Users\\micka\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.UWP\\TicketDeCaisse2017.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\micka\\Projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.UWP\\TicketDeCaisse2017.UWP.csproj",
       "projectName": "TicketDeCaisse2017.UWP",
-      "projectPath": "C:\\projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.UWP\\TicketDeCaisse2017.UWP.csproj",
-      "projectJsonPath": "C:\\projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.UWP\\project.json",
+      "projectPath": "C:\\Users\\micka\\Projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.UWP\\TicketDeCaisse2017.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\micka\\Projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.csproj": {
-              "projectPath": "C:\\projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.csproj"
+            "C:\\Users\\micka\\Projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.csproj": {
+              "projectPath": "C:\\Users\\micka\\Projet\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017\\TicketDeCaisse2017.csproj"
             }
           }
         }
