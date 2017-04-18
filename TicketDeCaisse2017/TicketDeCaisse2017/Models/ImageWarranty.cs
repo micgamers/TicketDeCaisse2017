@@ -8,19 +8,21 @@ using Xamarin.Forms;
 
 namespace TicketDeCaisse2017.Models
 {
-    public class Warranty
+    public class ImageWarranty
     {
+        [AutoIncrement]
         public int ID { get; set; }
-
-        public string Name { get; set; }
-
-        public string StoreName { get; set; }
 
         public string Url { get; set; }
 
+        [Ignore]
+        public ImageSource Image { get; set; }      
+
+        public int IDWarranty { get; set; }
+
         public override string ToString()
         {
-            return string.Format("[Warranty: ID={0}, Name={1}, StoreName={2}]", ID, Name, StoreName);
+            return string.Format("[ImageWarranty: ID={0}, IDWarranty={1}]", ID, IDWarranty);
         }
 
     }

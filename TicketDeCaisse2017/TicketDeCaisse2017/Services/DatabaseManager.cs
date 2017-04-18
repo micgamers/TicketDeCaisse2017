@@ -16,8 +16,8 @@ namespace TicketDeCaisse2017.Services
 {
     public class DatabaseManager : IDatabaseManager
     {
-        private static string CREATE_TABLE_WARRANTY = "CREATE TABLE IF NOT EXISTS Warranty (Name string, StoreName string, Url string, PRIMARY KEY(Name, StoreName))";
-        private static string SELECT_ELEMENT_WARRANTY = "select * from Warranty";
+        private static string CREATE_TABLE_WARRANTY = "CREATE TABLE IF NOT EXISTS Warranty (ID int, Name string, StoreName string, Url string, PRIMARY KEY(Name, StoreName))";
+        private static string CREATE_TABLE_IMAGE_WARRANTY = "CREATE TABLE IF NOT EXISTS ImageWarranty (ID int, Url string, IDWarranty int, PRIMARY KEY(Url, IDWarranty))";
         private SQLiteAsyncConnection _dbConnection;
         public SQLiteAsyncConnection DbConnection
         {
@@ -48,9 +48,8 @@ namespace TicketDeCaisse2017.Services
 
         public async Task CreateDbIfNotExist()
         {
-            //await DbConnection.CreateTableAsync<Warranty>();
             await DbConnection.ExecuteAsync(CREATE_TABLE_WARRANTY);
-
+            await DbConnection.ExecuteAsync(CREATE_TABLE_IMAGE_WARRANTY); 
             Debug.WriteLine("Create db success!");
         }
 
@@ -85,6 +84,18 @@ namespace TicketDeCaisse2017.Services
             await DbConnection.InsertOrReplaceAsync(warranty3);
         }
 
+        public async Task AddImageWarranty(Warranty warranty)
+        {
+            ImageWarranty warranty1 = new ImageWarranty()
+            {
+                IDWarranty = warranty.ID,
+                Url = @"C:\Users\micka\Pictures\20160319_175103.jpg"
+            };
+
+            await DbConnection.InsertOrReplaceAsync(warranty1);
+
+        }
+
         public async Task AddWarranty(Warranty warranty)
         {
             await DbConnection.InsertOrReplaceAsync(warranty);
@@ -95,6 +106,34 @@ namespace TicketDeCaisse2017.Services
             try
             {
                 List<Warranty> result = await DbConnection.Table<Warranty>().ToListAsync();
+                return result;
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(string.Format("Exception : '{0}'", e));
+            }
+            return null;
+        }
+
+        public async Task<List<ImageWarranty>> GetListImageWarranty(Warranty warranty)
+        {
+            try
+            {
+                List<ImageWarranty> result = await DbConnection.Table<ImageWarranty>().Where(p => p.IDWarranty.Equals(warranty.ID)).ToListAsync();
+                return result;
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(string.Format("Exception : '{0}'", e));
+            }
+            return null;
+        }
+
+        public async Task<ImageWarranty> GetImageWarranty(Warranty warranty, int idImage)
+        {                     
+            try
+            {
+                ImageWarranty result = await DbConnection.Table<ImageWarranty>().Where(p => p.IDWarranty.Equals(warranty.ID) && p.ID.Equals(idImage)).FirstOrDefaultAsync();
                 return result;
             }
             catch (Exception e)

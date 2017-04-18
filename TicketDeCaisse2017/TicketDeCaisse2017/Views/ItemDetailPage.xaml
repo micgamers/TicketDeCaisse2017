@@ -3,13 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TicketDeCaisse2017.Views.ItemDetailPage"
              Title="{Binding Title}">
-    <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
-	    <StackLayout Spacing="20" Padding="15">
-		    <Label Text="{Binding Warranty.Name}" FontSize="Medium"/>
-            <Label Text="{Binding Warranty.StoreName}" FontSize="Small"/>
-        
-            <Image Source="{Binding image}"/>
+    <ContentPage.Content>
+        <!--<ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">-->
+            <StackLayout Spacing="20" Padding="15">
+                    <Label Text="{Binding Warranty.Name}" FontSize="Medium"/>
+                    <Label Text="{Binding Warranty.StoreName}" FontSize="Small"/>
 
-        </StackLayout>
-    </ScrollView>
+                <ListView x:Name="ListViewWarranty"
+				ItemsSource="{Binding Images}"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true"
+                RefreshCommand="{Binding LoadItemsCommand}"
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                CachingStrategy="RecycleElement">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal" Padding="10">
+
+                                    <Image Aspect="Fill"
+                 HeightRequest ="900" WidthRequest="450"
+                 Source="{Binding Image}" />
+                                </StackLayout>
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        <!--</ScrollView>-->
+    </ContentPage.Content>
 </ContentPage>

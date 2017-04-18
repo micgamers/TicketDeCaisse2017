@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\micka\Projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-10T08:44:17.884</Modified>
+      <Modified>2017-04-18T14:11:43.753</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\micka\Projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\TicketDeCaisse2017.UWP.exe">
       <PackagePath>entrypoint\TicketDeCaisse2017.UWP.exe</PackagePath>
-      <Modified>2017-04-10T08:44:17.006</Modified>
+      <Modified>2017-04-18T14:11:43.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micka\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -553,7 +553,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micka\Projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\TicketDeCaisse2017.dll">
       <PackagePath>TicketDeCaisse2017.dll</PackagePath>
-      <Modified>2017-04-10T08:44:15.394</Modified>
+      <Modified>2017-04-18T14:11:41.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micka\Projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017\bin\Debug\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
@@ -636,11 +636,11 @@
     <AppxPackagedFile Include="C:\Users\micka\Projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-10T08:44:17.603</Modified>
+      <Modified>2017-04-18T14:11:43.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micka\Projet\TicketDeCaisse2017\TicketDeCaisse2017\TicketDeCaisse2017.UWP\bin\x86\Debug\Core\TicketDeCaisse2017.UWP.exe">
       <PackagePath>TicketDeCaisse2017.UWP.exe</PackagePath>
-      <Modified>2017-04-10T08:44:17.881</Modified>
+      <Modified>2017-04-18T14:11:43.750</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

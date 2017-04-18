@@ -7,7 +7,7 @@ namespace TicketDeCaisse2017.Views
 {
     public partial class ItemDetailPage : ContentPage
     {
-        ItemDetailViewModel viewModel;
+        WarrantyDetailViewModel viewModel;
 
         // Note - The Xamarin.Forms Previewer requires a default, parameterless constructor to render a page.
         public ItemDetailPage()
@@ -15,11 +15,11 @@ namespace TicketDeCaisse2017.Views
             InitializeComponent();
         }
 
-        public ItemDetailPage(ItemDetailViewModel viewModel)
+        public ItemDetailPage(WarrantyDetailViewModel viewModel)
         {
             InitializeComponent();
 
             BindingContext = this.viewModel = viewModel;
-        }
+        }        
     }
 }

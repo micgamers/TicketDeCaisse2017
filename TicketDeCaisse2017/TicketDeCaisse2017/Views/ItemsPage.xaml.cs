@@ -24,7 +24,7 @@ namespace TicketDeCaisse2017.Views
             if (warranty == null)
                 return;
 
-            var itemVM = new ItemDetailViewModel(warranty);
+            var itemVM = new WarrantyDetailViewModel(warranty);
             await itemVM.InitAsync();
             await Navigation.PushAsync(new ItemDetailPage(itemVM));
 
